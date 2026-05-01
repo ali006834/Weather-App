@@ -1,5 +1,7 @@
 # 🌍 Hava Durumu Uygulaması
 
+**🚀 Canlı Uygulama:** [https://weather-app-gamma-sooty-76.vercel.app/](https://weather-app-gamma-sooty-76.vercel.app/)
+
 Gerçek zamanlı hava durumu bilgisini şehir adı girerek anında gösteren bir web uygulaması. Frontend ve backend'i aynı projede birleştirdim ve tam bir full-stack örneği oluşturdum.
 
 ## 🎯 Neden yaptım?
@@ -148,13 +150,36 @@ weather-app/
 
 ## 🌐 Dağıtım (Vercel)
 
+Bu proje Vercel'e dağıtıldı ve canlı olarak çalışıyor:
+
+**Vercel Deployment:**
+- **Live URL**: https://weather-app-gamma-sooty-76.vercel.app/
+- **Status**: ✅ Ready
+- **Source**: GitHub `main` branch
+- **Auto Deploy**: Her push'ta otomatik güncelleniyor
+
+Vercel, GitHub'daki değişiklikleri otomatik algılar ve projeyi yeniden derleyip dağıtır. Değişiklik yapmak için:
+1. Kodu düzenle
+2. `git push` yap
+3. Vercel otomatik deploy eder (2-3 dakika)
+
+Vercel'e dağıtımın avantajları:
+- ✅ Automatic CI/CD
+- ✅ SSL sertifikası (HTTPS)
+- ✅ Global CDN
+- ✅ Serverless Functions (API routes)
+- ✅ Çok hızlı deployment
+
+## 🌐 Geliştirme ve Üretim
+
 Bu proje Vercel'e dağıtılmak için tamamen hazır:
 
 ```bash
-# Vercel CLI ile
+# Vercel CLI ile manuel deploy
 vercel
 
-# Ya da GitHub'a push edip Vercel Dashboard'dan bağla
+# Ya da GitHub'a push edip Vercel otomatik deploy etsin
+git push origin main  # Vercel otomatik deploy eder!
 ```
 
 ## 📚 Neler Öğrendim?
